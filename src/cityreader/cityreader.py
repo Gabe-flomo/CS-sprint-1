@@ -104,3 +104,5 @@ def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
 within = cityreader_stretch(lat1, lon1, lat2, lon2, cities)
 for city in within:
   print(city)
+
+print()
